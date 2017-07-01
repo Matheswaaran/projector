@@ -108,70 +108,70 @@
                                     <td class='time'><font size="2"><?php echo $date; ?></font><br><?php echo $day; ?></td>
                                     <!-- Hour 1 -->
                                     <?php if ($query_result['hour1'] == ''){ ?>
-                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','1','projector')">BOOK NOW</a></td>
+                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','1','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour1'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','1','projector')">CANCEL</a></td>
+                                        if ($query_result['hour1'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','1','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour1']; ?></td>
                                         <?php } } ?>
 
                                     <!-- Hour 2 -->
                                     <?php if ($query_result['hour2'] == ''){ ?>
-                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','2','projector')">BOOK NOW</a></td>
+                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','2','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour2'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','2','projector')">CANCEL BOOKING</a></td>
+                                        if ($query_result['hour2'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','2','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour2']; ?></td>
                                         <?php } } ?>
 
                                     <!-- Hour 3 -->
                                     <?php if ($query_result['hour3'] == ''){ ?>
-                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','3','projector')">BOOK NOW</a></td>
+                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','3','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour3'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','3','projector')">CANCEL BOOKING</a></td>
+                                        if ($query_result['hour3'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','3','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour3']; ?></td>
                                         <?php } } ?>
 
                                     <!-- Hour 1 -->
                                     <?php if ($query_result['hour4'] == ''){ ?>
-                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','4','projector')">BOOK NOW</a></td>
+                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','4','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour4'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','4','projector')">CANCEL BOOKING</a></td>
+                                        if ($query_result['hour4'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','4','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour4']; ?></td>
                                         <?php } } ?>
 
                                     <!-- Hour 1 -->
                                     <?php if ($query_result['hour5'] == ''){ ?>
-                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','5','projector')">BOOK NOW</a></td>
+                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','5','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour5'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','5','projector')">CANCEL BOOKING</a></td>
+                                        if ($query_result['hour5'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','5','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour5']; ?></td>
                                         <?php } } ?>
 
                                     <!-- Hour 1 -->
                                     <?php if ($query_result['hour6'] == ''){ ?>
-                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','6','projector')">BOOK NOW</a></td>
+                                        <td class='green'><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','6','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour6'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','6','projector')">CANCEL BOOKING</a></td>
+                                        if ($query_result['hour6'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','6','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour6']; ?></td>
                                         <?php } } ?>
 
                                     <!-- Hour 1 -->
                                     <?php if ($query_result['hour7'] == ''){ ?>
-                                        <td class='green' ><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','7','projector')">BOOK NOW</a></td>
+                                        <td class='green' ><a href="javascript://" onClick="updateBookstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','7','projector')">Block</a></td>
                                     <?php }else {
-                                        if ($query_result['hour7'] == $username){ ?>
-                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','7','projector')">CANCEL BOOKING</a></td>
+                                        if ($query_result['hour7'] == "Blocked"){ ?>
+                                            <td class='orange'><a href="javascript://" onClick="updateCancelstatus('<?php echo $dbdate; ?>','<?php echo $day; ?>','7','projector')">Unblock</a></td>
                                         <?php } else { ?>
                                             <td class='red'><?php echo $query_result['hour7']; ?></td>
                                         <?php } } ?>
