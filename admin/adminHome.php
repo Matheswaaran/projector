@@ -369,8 +369,7 @@
         <footer>
             <div class="container">
                 <div class="copy text-center">
-                    Copyright 2017 <a href='https://gscpsnacet.github.io/' target="_blank">Google Students Club, PSNACET</a>
-                </div>
+                    Copyright 2017 @ <a href="https://gscpsnacet.github.io" target="_blank">Google Students Club, PSNACET</a>                </div>
             </div>
         </footer>
 

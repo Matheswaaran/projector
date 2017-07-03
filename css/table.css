@@ -9,6 +9,7 @@ td{
 .red{
     vertical-align: middle;
     background: red;
+    text-decoration-color: white;
 }
 
 .green{

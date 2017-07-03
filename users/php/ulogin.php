@@ -10,7 +10,7 @@
         $password = $session->encryptIt($password);
         $login_err = "";
 
-        $login_query = mysqli_query($db, "SELECT * FROM users WHERE username = '$username' or email = '$username' and password = '$password'");
+        $login_query = mysqli_query($db, "SELECT * FROM users WHERE password = '$password' AND username = '$username' OR email = '$username' AND password = '$password'");
         $login_result = mysqli_num_rows($login_query);
         $login_array = mysqli_fetch_array($login_query, MYSQL_ASSOC);
 
