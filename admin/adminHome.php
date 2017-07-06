@@ -23,7 +23,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bootstrap Admin Theme v3</title>
+        <title><?php echo $username;?> - Admin Home Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
